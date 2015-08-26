@@ -1,0 +1,29 @@
+{
+  "uuid": "8510e30f-9595-47b1-809a-ad95a7793ee8",
+  "shortName": "watchface",
+  "longName": "watchface",
+  "companyName": "Regular Duck",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt"],
+  "watchapp": {
+    "watchface": true
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": [
+        {
+            "type" : "font",
+            "name" : "FONT_PERFECT_DOS_48",
+            "file" : "fonts/perfect-dos-vga.ttf",
+            "compatibility" : "3.0"
+        }, {
+            "type" : "png",
+            "name" : "IMAGE_WATCH_BG",
+            "file" : "images/background.png"
+        }
+    ]
+  }
+}
